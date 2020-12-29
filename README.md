@@ -133,4 +133,4 @@
      
     * Ejemplo de uso:
     	
-    		putText(frame, "1", Point(400, 50), FONT_HERSHEY_DUPLEX, 1.0, Scalar(0,255,0), 2);
+    		putText(frame, str, Point(400, 50), FONT_HERSHEY_DUPLEX, 1.0, Scalar(0,255,0), 2);
