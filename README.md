@@ -1,4 +1,4 @@
-# Reconocimiento de gestos con OpenCV
+# Reconocimiento de gestos con OpenCV (SIPC)
 
 
  * ***Objeto Mat:***
