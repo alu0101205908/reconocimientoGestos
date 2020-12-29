@@ -1,6 +1,16 @@
 # Reconocimiento de gestos con OpenCV (SIPC)
 
 
+**COMPILACIÓN Y EJECUCIÓN:**
+
+ * 1º Abrir terminal y situarnos en /built
+ * 2º cmake .
+ * 3º make
+ * 4º Ejecutar ./gestos
+ 
+ 
+ **INFORMACIÓN:**
+ 
  * ***Objeto Mat:***
  	
     * Con este objeto crearemos las imágenes que vamos a necesitar. En nuestro caso vamos a utilizar como imágenes: 
@@ -107,9 +117,9 @@
     		circle(roi, f, 5, Scalar(0, 0, 255), -1);
         
         
-  * ***Línea (defecto de convexidad):***
+  * ***Línea (segmento de unión):***
  	
-    * Para mostrar un defecto de convexidad utilizamos una función de la librería de openCV denominada circle. A esta función se le pasa como parámetros:
+    * Para unir los puntos que generan un defecto de convexidad utilizamos una función de la librería de openCV denominada line. A esta función se le pasa como parámetros:
     	* **roi:** Imagen en la que se va a mostrar el círculo.
     	* **s:** El punto inicial de la  línea.
     	* **e:** El punto final  de la  línea.
